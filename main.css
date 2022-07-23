@@ -31,7 +31,7 @@ header {
     cursor: pointer;
     box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
     padding: 15px;
-    transition: background-color 0.2s ease-in;
+    transition: background-color 0.3s ease-in;  
   }
   .about__image {
     width: 500px;
@@ -101,7 +101,7 @@ header {
   }
   button:hover {
     background-color: #f6980c;
-    box-shadow: 0 16px 36px rgba(246 152 12 / 20%) 
+    box-shadow: 0 16px 36px rgba(246 152 12 / 20%)
   }
   footer{
     padding: 90px 20px;
@@ -120,7 +120,7 @@ header {
   .footer__group{
     margin-right: 80px;
   }
-  .footer__group h3{
+  .footer h3{
   font-size: 16px;
   opacity: 0.7;
   margin-bottom: 30px;
@@ -130,4 +130,6 @@ header {
     flex-direction: column;
     margin-bottom: 15px;
   }
-  
+  .footer__links a{
+    margin-bottom: 15px;
+  }
